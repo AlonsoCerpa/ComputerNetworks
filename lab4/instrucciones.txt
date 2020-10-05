@@ -1,0 +1,12 @@
+Instrucciones para copiar archivo al servidor:
+scp server.cpp student3@51.15.220.108:/home/student3
+
+Instrucciones para ejecutar el juego:
+1. Conectarse al servidor con el siguiente comando:
+ssh student3@51.15.220.108
+2. Ingresar el siguiente passphrase:
+net.cs.ucsp
+3. Ejecutar el programa server.exe con el argumento del número de jugadores:
+./server.exe 3
+4. Ejecutar el cliente, las veces iguales al número de jugadores con:
+./client.exe 3
